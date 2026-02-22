@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat Privado</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f4f4;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  background:#fff;
+  width:420px;
+  border-radius:18px;
+  padding:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.avatar{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.online{
+  background:#e6f7ee;
+  color:#1aa34a;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.dot{
+  width:8px;
+  height:8px;
+  background:#1aa34a;
+  border-radius:50%;
+}
+
+h1{
+  font-size:26px;
+  margin:20px 0;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  padding:16px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  margin-bottom:14px;
+}
+
+.facebook{
+  background:#1fa64a;
+  color:#fff;
+}
+
+.whatsapp{
+  background:#e22b2b;
+  color:#fff;
+}
+
+.back{
+  display:block;
+  text-align:center;
+  padding:14px;
+  border-radius:10px;
+  border:1px solid #ddd;
+  text-decoration:none;
+  color:#333;
+  background:#fafafa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="header">
+    <img class="avatar" src="samclef.jpg" alt="profile">
+    <div class="online">
+      <div class="dot"></div>
+      Online agora
+    </div>
+  </div>
+
+  <h1>Estou online. Vamos ter um chat privado.</h1>
+
+  <a href="https://facebook.com" class="btn facebook">
+    💬 Converse comigo no Facebook
+  </a>
+
+  <a href="https://wa.me/your-number" class="btn whatsapp">
+    📹 Faça uma chamada de vídeo comigo no WhatsApp
+  </a>
+
+  <a href="#" class="back">
+    ← Não estou interessado, voltar
+  </a>
+</div>
+
+</body>
+</html>
